@@ -12,8 +12,29 @@
 	background-size: cover;
 	width: 100%;
 	height: 100vh;
-	
-	
+
+}
+
+.line {
+	width:1px;
+	padding: 0 10px;
+	white-space: nowrap;
+}
+/*body {
+	background: grey;
+}*/	
+
+
+
+.navbar .nav-link {
+  font-size: 16px;
+  text-transform: uppercase;
+ /* padding-left: 1rem;
+  padding-right: 1rem;*/
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
 }
 
 .caption {
@@ -23,7 +44,7 @@
 	transform: translateY(-50%);
 	transform: translateX(-50%);
 	background: none;
-	color: white;
+	color: yellow;
 
 }
 
@@ -61,13 +82,14 @@
 
 
 .padding {
-	background: url(../images/james.jpg);
+	background: linear-gradient(0deg,rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/james.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	width: 100%;
 	height: 61vh;
 	position: relative;
+
 	
 }
 
@@ -79,10 +101,12 @@
 	letter-spacing: 2px;
 
 }
-
-.text1 h4 {
-	font-size: 50px;
+.text1 h3 a {
+	color: white;
 }
+
+
+
 
 .tex1 p {
 	font-size: 1.5vw;
@@ -90,7 +114,7 @@
 
 
 .padding2 {
-	background: url(../images/stephon.jpg);
+	background: linear-gradient(0deg,rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/stephon.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -107,11 +131,9 @@
 
 }
 
-.text2 h3 a {
-	color: white;
-}
+
 .left3 {
-	background: url(../images/bill.jpg);
+	background: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../images/bill.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -137,13 +159,13 @@ ul li a {
 	font-weight: 500;
 }
 
-.carousel-caption {
+.cap {
   position: absolute;
   top: 55%;
   transform: translateY(-50%);
 }
 
-.carousel-caption h1 {
+.cap h1 {
   font-size: 300%;
   text-transform: uppercase;
   text-shadow: 2px 2px 15px green;
@@ -170,15 +192,15 @@ ul li a {
   color: black;
 }
 
-p a {
+/*p a {
 	color: black;
-}
+}*/
 
-p i{
+/*p i{
 	font-size: 2rem;
 	margin-top: 5px;
 }
-
+*/
 
 
 
@@ -240,6 +262,11 @@ footer {
 
 /*end of about*/
 
+
+.modal-content iframe{
+        margin: 0 auto;
+        display: block;
+    }
 /*start of apparel*/
 
 /*.main {
