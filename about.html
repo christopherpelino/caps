@@ -11,15 +11,19 @@
 
   <!-- google-font -->
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-  <!-- bootsrap css -->
-  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-  <!-- bootstrap css -->
-  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
   <!-- external css -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <!-- icon -->
   <link rel="shortcut icon" href="assets/images/NE1.png">
+  
 </head>
 <body>
 	<main class="container-fluid">
@@ -28,46 +32,47 @@
 		</div>
 
 		<!-- navbar starts -->
-  		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top p-0">
-        <a class="navbar-brand" href="home.html"><img id="navlogo" src="assets/images/NE3.png"></a>
+  		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top p-0">
+			    <a class="navbar-brand" href="home.html"><img id="navlogo" src="assets/images/patlogo.png" class="ml-5"></a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+			        <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div id="navbar-nav" class="collapse navbar-collapse mr-3">
+			        <ul class="navbar-nav ml-auto">
+			          <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+                </li>
 
-	        <div id="navbar-nav" class="collapse navbar-collapse">
-	            <ul class="navbar-nav ml-auto">
-	              <li class="nav-item">
-	                     <a class="nav-link" href="home.html">Home</a>
-	              </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="about.html">About</a>
+                </li>
 
-	              <li class="nav-item">
-	                <a class="nav-link active" href="about.html">About</a>
-	              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
 
-	              <li class="nav-item">
-	                <a class="nav-link" href="gallery.html">Gallery</a>
-	              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shop.html">Shop</a>
+                </li>
 
-	              <li class="nav-item">
-	                <a class="nav-link" href="shop.html">Shop</a>
-	              </li>
+                 <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+			         </ul><!-- end of navbar-nav -->
+			    </div> <!-- end navbar items -->
+	   		 </nav> <!-- end navbar -->
 
-	              <li class="nav-item">
-	                <a class="nav-link" href="contact.html">Contact Us</a>
-	              </li>
 
-	             </ul><!-- end of navbar-nav -->
-	        </div> <!-- end navbar items -->
-      	</nav> <!-- end navbar -->
 
-   	<!-- jumbotron starts -->
-   	<div class="jumbotron p-0 mb-5">
-		<h1 class="display-4 text-center m-0">About Us</h1>
-			  
-	</div>	 <!-- end of jumbotron -->
 
 	<div class="container mb-5">
+
+	   	<div class="jumbotron p-0 mb-5">
+			<h1 class="display-4 text-center m-0">About Us</h1>
+				  
+		</div>	
+
 		<div class="row">
 			<div class="col-lg-6 offset-lg-3 mt-0">
 				<img src="assets/images/aboutus.png" class="image-fluid w-100">
@@ -75,10 +80,9 @@
 			</div>
 
 			<div class="col-lg-12">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure. </p>
+				<p>NEP nation is a football fan website, we highlight a team called New England Patriots.
+				Here you can view the latest news and information about the team you can, our main goal
+				is to promote football and our beloved team.  </p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
@@ -86,124 +90,196 @@
 		</div>
 	</div>
 
+
+
+
+	<section class="container">
+	   	<div class="jumbotron p-0 mb-5">
+			<h1 class="display-4 text-center m-0">What We Do</h1>
+				  
+		</div>	
+	    <div class="content-4 mb-3">
+	        <ul class="nav" role="tablist">
+	            <li class="nav-item nav-tabs">
+	                <a class="active tab-item" href="#design" role="tab" data-toggle="tab">
+	                   <i class="fas fa-code"></i>
+	                    <span>Web Design</span>
+	                </a>
+	            </li>
+	            <li class="nav-item nav-tabs">
+	                <a class="tab-item" href="#development" role="tab" data-toggle="tab">
+	                    <i class="fas fa-rocket"></i>
+	                    <span>Web Development</span>
+	                </a>
+	            </li>
+	            <li class="nav-item nav-tabs">
+	                <a class="tab-item" href="#responsive" role="tab" data-toggle="tab">
+	                    <i class="fab fa-css3"></i>
+	                    <span>Responsive</span>
+	                </a>
+	            </li>
+	            <li class="nav-item nav-tabs">
+	                <a class="tab-item" href="#marketable" role="tab" data-toggle="tab">
+	                    <i class="far fa-compass"></i>
+	                    <span>Marketable Website</span>
+	                </a>
+	            </li>
+
+	        
+	        </ul>
+
+	        <!-- Tab panes -->
+	        <div class="tab-content">
+	            <div role="tabpanel" class="active tab-pane" id="design">
+	                <div class="row justify-content-md-center">
+	                    <div class="col-md-3">
+	                        <h4>Creating a Awesome website design</h4>
+	                    </div>
+	                    <div class="col-md-7 text-dark">
+	                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	                    </div>
+	                </div>
+	            </div>
+	            <div role="tabpanel" class="tab-pane fade" id="development">
+	                <div class="row justify-content-md-center">
+	                    <div class="col-md-3">
+	                        <h4>Coding a great design with efficiency</h4>
+	                    </div>
+	                    <div class="col-md-7 text-dark">
+	                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	                    </div>
+	                </div>
+	            </div>
+
+	            <div role="tabpanel" class="tab-pane fade" id="responsive">
+	                <div class="row justify-content-md-center">
+	                    <div class="col-md-3">
+	                        <h4>Responsive design for different websites</h4>
+	                    </div>
+	                    <div class="col-md-7 text-dark">
+	                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	                    </div>
+	                </div>
+	            </div>
+
+	            <div role="tabpanel" class="tab-pane fade" id="marketable">
+	                <div class="row justify-content-md-center">
+	                    <div class="col-md-3">
+	                        <h4>Website that can compete in the market</h4>
+	                    </div>
+
+	                    <div class="col-md-7 text-dark">
+	                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	                    </div>
+	                </div>
+	            </div>
+	           
+	            <hr>
+	        </div>
+	    </div>    
+	</section>
+
+
+
+
 	<div class="jumbotron p-0 mb-5">
 		<h1 class="display-4 text-center m-0">Meet the Team</h1>
 			  
 	</div>
 
 	<section id="authors" class="container-fluid my-5 text-center">
-    <div class="container ">
+    <div class="container">
       	<div class="row">
-	        <div class="col-lg-3 col-md-6">
+	        <div class="col-lg-3 col-md-6 mb-3">
 	          <div class="card">
-	            <div class="card-body">
+	            <div class="card-body bg-dark text-white"">
 	              <img src="assets/images/white.png" alt="" class="img-fluid rounded-circle w-50 mb-3">
 	              <h3>James White</h3>
-	              <h5 class="text-muted">Lead Writer</h5>
-	              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
+	              <h5 class="text-muted">Web Designer</h5>
+	              <p>an American football running back and team captain for the New England Patriots of the National Football League (NFL).</p>
 	              <div class="d-flex justify-content-center">
-	                <div class="p-4">
-	                  <a href="http://facebook.com">
-	                    <i class="fab fa-facebook"></i>
-	                  </a>
-	                </div>
-	                <div class="p-4">
-	                  <a href="http://twitter.com">
-	                    <i class="fab fa-twitter"></i>
-	                  </a>
-	                </div>
-	                <div class="p-4">
-	                  <a href="http://instagram.com">
-	                    <i class="fab fa-instagram"></i>
-	                  </a>
-	                </div>
+	                <a href="#"><i class="fab fa-facebook p-3"></i></a>
+	                <a href="#"><i class="fab fa-twitter p-3"></i></a>
+	                <a href="#"><i class="fab fa-youtube p-3"></i></a>
+	                <a href="#"><i class="fab fa-instagram p-3"></i></a>
 
 	              </div>
 	            </div>
 	          </div>
 	        </div>
 
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 mb-3">
           <div class="card">
-            <div class="card-body">
+            <div class="card-body bg-dark text-white"">
               <img src="assets/images/slater.png" alt="" class="img-fluid rounded-circle w-50 mb-3">
               <h3>Devin McCourty</h3>
-              <h5 class="text-muted">Co-Writer</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
+              <h5 class="text-muted">Web Developer</h5>
+              <p>an American football free safety and team captain for the New England Patriots of the National Football League (NFL)</p>
               <div class="d-flex justify-content-center">
-                <div class="p-4">
-                  <a href="http://facebook.com">
-                    <i class="fab fa-facebook"></i>
-                  </a>
-                </div>
-                <div class="p-4">
-                  <a href="http://twitter.com">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </div>
-                <div class="p-4">
-                  <a href="http://instagram.com">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </div>
+               <a href="#"><i class="fab fa-facebook p-3"></i></a>
+               <a href="#"><i class="fab fa-twitter p-3"></i></a>
+               <a href="#"><i class="fab fa-youtube p-3"></i></a>
+               <a href="#"><i class="fab fa-instagram p-3"></i></a>
 
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 mb-3">
           <div class="card">
-            <div class="card-body">
+            <div class="card-body bg-dark text-white">
               <img src="assets/images/brady.png" alt="" class="img-fluid rounded-circle w-50 mb-3">
               <h3>Tom Brady</h3>
-              <h5 class="text-muted">Editor</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
+              <h5 class="text-muted">Quality Assurance</h5>
+              <p>an American football quarter back and team captain for the New England Patriots of the National Football League (NFL).</p>
               <div class="d-flex justify-content-center">
-                <div class="p-4">
-                  <a href="http://facebook.com">
-                    <i class="fab fa-facebook"></i>
-                  </a>
-                </div>
-                <div class="p-4">
-                  <a href="http://twitter.com">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </div>
-                <div class="p-4">
-                  <a href="http://instagram.com">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </div>
+                <a href="#"><i class="fab fa-facebook p-3"></i></a>
+                <a href="#"><i class="fab fa-twitter p-3"></i></a>
+                <a href="#"><i class="fab fa-youtube p-3"></i></a>
+                <a href="#"><i class="fab fa-instagram p-3"></i></a>
 
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 mb-3">
           <div class="card">
-            <div class="card-body">
+            <div class="card-body bg-dark text-white"">
               <img src="assets/images/gordon.png" alt="" class="img-fluid rounded-circle w-50 mb-3">
               <h3>David Andrews</h3>
-              <h5 class="text-muted">Designer</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
-              <div class="d-flex justify-content-center">
-                <div class="p-4">
-                  <a href="http://facebook.com">
-                    <i class="fab fa-facebook"></i>
-                  </a>
-                </div>
-                <div class="p-4">
-                  <a href="http://twitter.com">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </div>
-                <div class="p-4">
-                  <a href="http://instagram.com">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </div>
+              <h5 class="text-muted">CEO</h5>
+              <p>Lan American football offensive lineman and team captain for the New England Patriots of the National Football League (NFL).</p>
+              <div class="d-flex flex-row justify-content-center">
+                <a href="#"><i class="fab fa-facebook p-3"></i></a>
+                <a href="#"><i class="fab fa-twitter p-3"></i></a>
+                <a href="#"><i class="fab fa-youtube p-3"></i></a>
+                <a href="#"><i class="fab fa-instagram p-3"></i></a>
 
               </div>
             </div>
@@ -212,6 +288,9 @@
       </div>
     </div>
   </section>
+
+
+  <!-- ***************************************** -->
 
 
 
@@ -223,47 +302,48 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 mb-2">
-				<div class="accordion" id="accordionExample">
+				<div class="accordion" id="accordion">
 				  <div class="card">
-				    <div class="card-header" id="headingOne">
+				    <div class="card-header bg-secondary" id="headingOne">
 				      <h5 class="mb-0">
-				        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-				          Collapsible Group Item #1
+				        <button class="btn btn-link text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				         	What is american football?
 				        </button>
 				      </h5>
 				    </div>
 
-				    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-				      <div class="card-body">
-				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+				      <div class="card-body ">
+				        <p>American football, referred to as football in the United States and Canada and also known as gridiron, is a team sport played by two teams of eleven players on a rectangular field with goalposts at each end. The offense, which is the team controlling the oval-shaped football, attempts to advance down the field by running with or passing the ball, while the defense, which is the team without control of the ball, aims to stop the offense's advance and aims to take control of the ball for themselves. </p>
 				      </div>
 				    </div>
 				  </div>
 				  <div class="card">
-				    <div class="card-header" id="headingTwo">
+				    <div class="card-header bg-secondary" id="headingTwo">
 				      <h5 class="mb-0">
-				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-				          Collapsible Group Item #2
+				        <button class="btn btn-link text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				          How to score in the NFL?
 				        </button>
 				      </h5>
 				    </div>
-				    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+				    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 				      <div class="card-body">
-				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				        <p>A touchdown is worth six points, and is scored when a team crosses the opposition's goal line with the ball, or catches or collects the ball in the end zone.
+						A Field goal is worth three points. An extra point is earned by kicking the ball through the uprights after a touchdown.</p>
 				      </div>
 				    </div>
 				  </div>
 				  <div class="card">
-				    <div class="card-header" id="headingThree">
+				    <div class="card-header bg-secondary" id="headingThree">
 				      <h5 class="mb-0">
-				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-				          Collapsible Group Item #3
+				        <button class="btn btn-link text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				          What is a quarter back?
 				        </button>
 				      </h5>
 				    </div>
-				    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+				    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 				      <div class="card-body">
-				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				       <p>A quarterback (commonly abbreviated "QB") is a position in American and Canadian football. Quarterbacks are members of the offensive team and line up directly behind the offensive line. In modern American football, the quarterback is usually considered the leader of the offensive team, and is often responsible for calling the play in the huddle. The quarterback also touches the ball on almost every offensive play, and is the offensive player that almost always throws forward passes.</p>
 				      </div>
 				    </div>
 				  </div>
@@ -271,48 +351,48 @@
 
 			</div>
 
-			<div class="col-lg-6">
-				<div class="accordion" id="accordionExample">
+			<div class="col-lg-6 mb-4">
+				<div class="accordion" id="accordion">
 				  <div class="card">
-				    <div class="card-header" id="headingOne">
+				    <div class="card-header bg-secondary" id="headingOne">
 				      <h5 class="mb-0">
-				        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-				          Collapsible Group Item #1
+				        <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+				          Best team in NFL?
 				        </button>
 				      </h5>
 				    </div>
 
-				    <div id="collapse1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+				    <div id="collapse1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
 				      <div class="card-body">
-				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				        <p>The New England Patriots are a professional American football team based in the Greater Boston region. The Patriots compete in the National Football League (NFL) as a member club of the league's American Football Conference (AFC) East division. The team plays its home games at Gillette Stadium in the town of Foxborough, Massachusetts, which is located 21 miles (34 km) southwest of downtown Boston, Massachusetts and 20 miles (32 km) northeast of downtown Providence, Rhode Island. The Patriots are also headquartered at Gillette Stadium.</p>
 				      </div>
 				    </div>
 				  </div>
 				  <div class="card">
-				    <div class="card-header" id="headingTwo">
+				    <div class="card-header bg-secondary" id="headingTwo">
 				      <h5 class="mb-0">
-				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-				          Collapsible Group Item #2
+				        <button class="btn btn-link text-white collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+				          Who owns the New Englad Patriots?
 				        </button>
 				      </h5>
 				    </div>
-				    <div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+				    <div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 				      <div class="card-body">
-				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				        <p>Robert Kenneth Kraft[2] (born June 5, 1941) is an American businessman. He is the chairman and chief executive officer of the Kraft Group, a diversified holding company with assets in paper and packaging, sports and entertainment, real estate development and a private equity portfolio. His sports holdings include the National Football League's New England Patriots, Major League Soccer's New England Revolution, and the stadium in which both teams play, Gillette Stadium.</p>
 				      </div>
 				    </div>
 				  </div>
 				  <div class="card">
-				    <div class="card-header" id="headingThree">
+				    <div class="card-header bg-secondary" id="headingThree">
 				      <h5 class="mb-0">
-				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-				          Collapsible Group Item #3
+				        <button class="btn btn-link text-white collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+				          Who is the greatest QB of all time?
 				        </button>
 				      </h5>
 				    </div>
-				    <div id="collapse3" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+				    <div id="collapse3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 				      <div class="card-body">
-				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				        <p>Thomas Edward Patrick Brady Jr. (born August 3, 1977) is an American football quarterback for the New England Patriots of the National Football League (NFL). Along with defensive player Charles Haley, he is one of only two players in NFL history to have won five Super Bowls, and the only one to have won them for a single team. Because of his numerous accomplishments and accolades, many analysts and sportswriters consider Brady to be among the greatest quarterbacks of all time.</p>
 				      </div>
 				    </div>
 				  </div>
@@ -324,78 +404,70 @@
 		</div> <!-- end of row -->
 	</div> <!-- end of container -->
 
-	  <!-- FOOTER -->
-	  <footer>
-	    <div class="container mt-3">
-	      <div class="row">      
-	        <!-- COLUMN 1 -->
 
-	        <div class="col-md-4 mt-3 col-12">
-	          <h3 class="text-center">DISCLAIMER</h3>
-	            <p class="text-justify">No copyright infringement intended, we do not own the images nor we take credit for it, we are not selling the website or making profits from it and it is used only for educational purposes.</p>
-	        </div>
+	
 
-	        <div class="col-md-4 mt-3 col-12">
-	          <h3 class="text-center">Contact Us</h3>
-	              <ul class="list-unstyled text-center">                    
-	              <li><i class="fas fa-map-marker-alt"></i> 66 Singkamas Cainta Rizal</li>
-	              <li><i class="far fa-envelope"></i> christopherpelino@gmail.com</li>
-	              <li><i class="fas fa-phone-square"></i> +63-918-542-0683</li>
-	            </ul>
-	          
-	        </div>
-	        <!-- / COLUMN 1 -->
+	<!-- footer -->
+	<footer>
+	  <div class="container">
+	    <div class="row">      
+	      <div class="col-lg-12 text-center">
+	        <a href="#top-head" class="btn up btn-lg bg-info"><i class="fas fa-angle-double-up"></i></a>
+	      </div> 	
 
-	        <!-- COLUMN 2 -->
-	        <div class="col-md-4 col-12 mt-3">
-	          <h3 class="text-center">LEGAL</h3>
-	           <ul class="list-unstyled text-center">                    
-	              <li><a href="" class="web">Website Policy</a></li>
-	              <li>Copyright and Privacy</li>
-	              <li>Terms and Condition</li>
-	            </ul>
+	      <div class="col-md-4 mt-3 col-12">
+	        <h3 class="text-center">DISCLAIMER</h3>
+	        <p class="text-justify">No copyright infringement intended, we do not own the images nor we take credit for it, we are not selling the website or making profits from it and it is used only for educational purposes.</p>
+	      </div> <!-- end of col -->
 
-	        </div>
-	        <!-- / COLUMN 2 -->
+	      <div class="col-md-4 mt-3 col-12">
+	        <h3 class="text-center">Contact Us</h3>
+	        <ul class="list-unstyled text-center">                    
+	          <li><i class="fas fa-map-marker-alt"></i> 66 Singkamas Cainta Rizal</li>
+	          <li><i class="far fa-envelope"></i> christopherpelino@gmail.com</li>
+	          <li><i class="fas fa-phone-square"></i> +63-918-542-0683</li>
+	        </ul>
 
-	        
-	       
+	      </div> <!-- end of col -->
+
+	      <div class="col-md-4 col-12 mt-3">
+	        <h3 class="text-center">LEGAL</h3>
+	        <ul class="list-unstyled text-center">                    
+	          <li><a href="#" class="web">Website Policy</a></li>
+	          <li><a href="#" class="web">Copyright and Privacy</a></li>
+	          <li><a href="#" class="web">Terms and Condition</a></li>
+	        </ul>
+
+	      </div><!-- end of col -4 -->
 	    </div> <!-- end of row -->
 
-	     <div class="row">
-	                   <div class="col-sm-12 text-center">
-	                       <div class="social-icon">
-	                         <a href=""><i class="fab fa-facebook wow fadeInLeft"></i></a>  
-	                         <a href=""><i class="fab fa-twitter wow fadeInLeft"></i></a>  
-	                         <a href=""><i class="fab fa-linkedin wow fadeInLeft"  ></i></a>  
-	                         <a href=""><i class="fab fa-youtube-square wow fadeInLeft"  ></i></a>  
-	                         <a href=""><i class="fab fa-dribbble wow fadeInLeft"></i></a>                          
-	                         <a href=""><i class="fab fa-google-plus wow fadeInLeft" ></i></a>                                               
-	                       </div>           
-	                                                                                      
-	                    </div>
-	                   
-	                   
-	                   
-	               </div>
+	    <div class="row">
+	     <div class="col-sm-12 text-center">
+	       <div class="social-icon">
+	         <a href="#"><i class="fab fa-facebook"></i></a>  
+	         <a href="#"><i class="fab fa-twitter"></i></a>  
+	         <a href="#"><i class="fab fa-linkedin"  ></i></a>  
+	         <a href="#"><i class="fab fa-youtube-square"  ></i></a>  
+	         <a href="#"><i class="fab fa-dribbble"></i></a>                          
+	         <a href="#"><i class="fab fa-google-plus" ></i></a>                                               
+	       </div>  <!-- end of social icon -->         
+	     </div> <!-- end of col sm-12 -->
+	   </div><!-- end of row -->
 
-	    <!-- COPYRIGHT -->
-	    <div class="text-center copyright">
-	      <p>&copy; 2018 ChrisP. All Rights Reserved.</p>
-	    </div>
-	    <!-- / COPYRIGHT -->
 
-	  </footer>
-	  <!-- / FOOTER -->
+	   <div class="text-center copyright">
+	    <p>&copy; 2018 ChristopherPeliño. All Rights Reserved.</p>
+	   </div>
+	
+	  </div>  <!-- end of container -->
+
+	 </footer><!--  end of footer -->
+
+	
 
 	</main><!--  main ends -->
 
 
-<script src="assets/js/jquery-3.3.1.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
-<!-- external bootsrap js -->
-<script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>

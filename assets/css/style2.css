@@ -5,10 +5,6 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 .landing {
 	background: url(../images/landing.jpg);
 	background-repeat: no-repeat;
@@ -24,7 +20,14 @@ html {
 	padding: 0 10px;
 	white-space: nowrap;
 }
+/*body {
+	background: grey;
+}	*/
 
+/*a {
+    color: #428BCA;
+    text-decoration: none;
+}*/
 
 
 
@@ -59,9 +62,6 @@ html {
 
 
 
-.navbar {
-	background: #32965D;
-}
 
 
 .col {
@@ -69,15 +69,15 @@ html {
 	padding: 0;
 	border: 0;
 	border: 1px solid black;
-	border-bottom: 3px solid black;
+	border-bottom: 2px solid black;
 	border-top: 2px solid black;
 
 
 }
 
 .col:hover {
-	border-bottom:  3px solid blue;
-	
+	border-bottom:  2px solid blue;
+	border-top: 2px solid blue;
 }
 
 .hr	{
@@ -88,34 +88,50 @@ html {
 
 .padding {
 	background: url(../images/james.jpg);
-	display: block;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	width: 100%;
 	height: 61vh;
 	position: relative;
-
-
-}
-
-
-
-.text1 {
-	background: linear-gradient(to bottom,rgba(0,0,0,.3),rgba(0,0,0,0.8));
-	position: absolute;
-	top: 55%;
-	left: 5%;
-	width: 75%;
 	
 }
 
 
 
-.text1 a {
+.text1 {
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	color: white;
+	
+}
+
+/*.text1 span {
+	color: white;
+
+}
+.text1 span:hover {
+	
+	text-decoration: none;
+	
+}
+
+.text1 h2 a {
 	color: white;
 }
 
+
+.text1 p a {
+	color: white;
+}*/
+
+
+
+
+/*.tex1 p {
+	font-size: 1.5vw;
+}*/
 
 
 .padding2 {
@@ -128,16 +144,25 @@ html {
 	background-color: rgba(0,0,0,.8);
 	position: relative;
 }
-
 .text2 {
-	background: linear-gradient(to bottom,rgba(0,0,0,.3),rgba(0,0,0,0.8));
+	background: linear-gradient(to bottom,rgba(0,0,0,.3),rgba(0,0,0,0.6));
 	position: absolute;
 	top: 45%;
 	left: 5%;
+	color: white;
+	padding: 0;
+	margin: 0;
+	
+	
+
 
 }
 
-.text2 a {
+.text2 h3 a {
+	color: white;
+}
+
+.text2 p a {
 	color: white;
 }
 
@@ -153,14 +178,17 @@ html {
 }
 
 .text3 {
-	background: linear-gradient(to bottom,rgba(0,0,0,.3),rgba(0,0,0,0.8));
 	position: absolute;
-	top: 45%;
-	left: 5%;
+	top: 50%;
+	left: 10%;
 	
 }
 
-.text3 a{
+.text3 h3 a{
+	color: white;
+}
+
+.text3 p a {
 	color: white;
 }
 
@@ -177,60 +205,57 @@ ul li {
 
 ul li a {
 	color: black;
-	
+	font-weight: 500;
 }
 
-ul li a:hover {
-	text-decoration: none;
-	
+.cap {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
 }
 
+.cap h1 {
+  font-size: 300%;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 15px green;
+  
+}
+
+.carousel-caption h3 {
+  font-size: 200%; 
+  font-weight: 500;
+  text-shadow: 2px 2px 10px yellow;
+  padding-bottom: 1rem;
+  color: blue;
+  
+}
+
+.btn-primary {
+  background-color: blue
+  border: 1px solid black;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  border: 1px solid #563d7c;
+  color: black;
+}
+
+/*p a {
+	color: black;
+}*/
 
 p i{
-	font-size: 1.5rem;
-	padding: 0 25px 0 0;
+	font-size: 2rem;
+	padding: 0 30px 0 0;
 	color: black;
 }
 
-h5 a {
-	color: black;
-}
 
-p a {
-	color: black;
-}
 
-.latest a {
-	color: black;
-}
 
-.latest a:hover {
-	text-decoration: none;
-	color: blue;
-}
-
-.kets a:hover {
-	color: white;
-	text-decoration: none;
-}
-.tick a {
-	color: black;
-}
-
-.tick a:hover {
-	text-decoration: none;
-	color: blue;
-}
-
-.up {
-	background: ;
-	border-radius: 0;
-	margin-top: -35px;
-	font-size: 1.5rem;
-	margin-bottom: -20px;
-	color: white;
-}
 footer {
+	/*background: rgba(0,0,0,.8);*/
 	background: url(../images/footer.png);
 	color: white;
 	background-repeat: no-repeat;
@@ -238,10 +263,14 @@ footer {
 	background-position: center;
 }
 
-.web {
-	text-decoration: none;
-	color: white;
-}
+/*.social-icons li a i{
+	color: blue;
+	padding: 5px;
+	border: 2px solid blue;
+	border-radius: 100px;
+}*/
+
+
 
 /*about*/
 
