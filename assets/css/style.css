@@ -44,7 +44,7 @@ html {
 	transform: translateY(-50%);
 	transform: translateX(-50%);
 	background: none;
-	color: yellow;
+	color: white;
 
 }
 
@@ -286,11 +286,7 @@ footer {
         margin: 0 auto;
         display: block;
     }
-/*start of apparel*/
 
-/*.main {
-	background: navy;
-}*/
 
 
 
@@ -352,6 +348,8 @@ footer {
   
 }
 
+
+
 /*************************************************/
 
 .content-4 .nav{
@@ -375,11 +373,7 @@ footer {
     font-size: 45px;
     padding: 0.4em 1.7em 0em 1.7em;
 }
-/*.content-4 .tab-item span{
-    display: inline-block;
-    padding-bottom: 1em;
-    width: 100%;
-}*/
+
 .content-4 .tab-item.active {
     color: blue;
    
